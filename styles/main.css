@@ -1,0 +1,220 @@
+.main-body {
+    width: 1280px;
+    margin: auto;
+}
+.section {
+    background-color: #445162;
+    padding: 10px 40px;
+}
+.section_blue {
+    background-color: #87C5FC;
+}
+.section_white {
+    background-color: #ffffff;
+}
+.section_peach {
+    background-color: #FFBB77;
+}
+
+.title_blue {
+    color: #0000FF;
+}
+
+.section-product-name {
+    display: flex;
+    justify-content: space-between;
+}
+.section-product-name-column__title {
+    color: white;
+    margin-left: 25px;
+}
+.section-product-name-column__item {
+    color: white;
+    list-style: none;
+}
+.section-product-name-column__item::before {
+    content: url(/assets/product-check.png);
+    margin-right: 10px;
+}
+
+.section-about {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+.section-about-column {
+    width: 60%;
+}
+.section-about__image {
+    display: block;
+    position: absolute;
+    top: 10px;
+    right: 40px;
+    height: 90%;
+}
+
+.section-dignity__title {
+    text-align: center;
+}
+.section-dignity-text {
+    display: flex;  
+}
+.section-dignity-text__item {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.section-dignity-text__item::before {
+    content: url(/assets/dignity-check.png);
+    margin-right: 10px;
+}
+
+.section-scrinshots__title {
+    text-align: center;
+}
+.section-scrinshots-articles {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.section-scrinshots-article {
+    display: flex;
+    width: 45%;
+    margin: 10px;
+}
+.section-scrinshots-article__image {
+    display: block;
+    margin-right: 10px;;
+}
+
+.section-reviews__title {
+    text-align: center;
+}
+
+.section-reviews-articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.section-reviews-article {
+    display: flex;
+    width: 40%;
+    margin-bottom: 10px;
+}
+
+.section-reviews-article__image {
+    margin-right: 10px;
+    height: 100%;
+}
+
+.section-reviews-article-quote__sign {
+    font-style: italic;
+}
+
+.section-buy__title {
+    text-align: center;
+}
+
+.section-buy-products {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.section-buy-product {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100%;
+    background-color: #808080;
+    margin-bottom: 20px;
+    border-radius: 4px;
+}
+
+.section-buy-product__title {
+    text-align: center;
+    color: #C0C0C0;
+}
+
+.section-buy-product__price {
+    text-align: center;
+    font-size: 18pt;
+    padding: 15px 0px;
+    font-weight: bold;
+    background-color: #C0C0C0; 
+}
+
+.section-buy-product__buy {
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+    text-align: center;
+    text-decoration: none;
+    color: black; 
+    font-weight: bold;
+    background-color: #C0C0C0; 
+    border-radius: 2px;   
+}
+
+.section-contacts__title {
+    text-align: center;
+}
+.section-contacts__block {
+    display: flex;
+    justify-content: center;
+}
+.section-contacts-column-left {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    padding: 10px;
+}
+.section-contacts-column-left__input {
+    margin-bottom: 10px;
+    height: 20px;
+    border-radius: 6px;
+}
+.section-contacts-column-left__input-message {
+    height: 200px;
+}
+.section-contacts-column-left__send {
+    display: block;
+    width: 30%;
+    padding: 10px 0;
+    margin: 10px auto;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    background-color: white;
+    border-radius: 4px;
+}
+.section-contacts-column-right {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    justify-content: center;
+    padding-left: 20px;;
+}
+.section-contacts-column-right__channel {
+    list-style: none;
+}
+.section-contacts-column-right__skype::before {
+    content: url(/assets/contacts-skype-icon.png);
+    margin-right: 10px;
+}
+.section-contacts-column-right__icq::before {
+    content: url(/assets/contacts-icq-icon.png);
+    margin-right: 10px;
+}
+.section-contacts-column-right__email::before {
+    content: url(/assets/contacts-email-icon.png);
+    margin-right: 10px;
+}
+.section-contacts-column-right__phone::before {
+    content: url(/assets/contacts-phone-icon.png);
+    margin-right: 10px;
+}
+.section-footer__text {
+    text-align: center;
+}
